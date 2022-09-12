@@ -1,0 +1,18 @@
+.navbar-dark .navbar-nav .nav-link {
+	color: black;
+}
+
+
+.main-content {
+    /* padding: 100px; */
+    padding-top: 50px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(204, 25, 25, 0.75);
+}
+
+
+.blog-section-header {
+	text-align: center;
+}

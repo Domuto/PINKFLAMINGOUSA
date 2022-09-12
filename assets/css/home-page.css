@@ -1,0 +1,167 @@
+@font-face {font-family: "Liberator"; src: url("//db.onlinewebfonts.com/t/5d7e9c15851618f02f88a3afad26de8d.eot"); src: url("//db.onlinewebfonts.com/t/5d7e9c15851618f02f88a3afad26de8d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5d7e9c15851618f02f88a3afad26de8d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5d7e9c15851618f02f88a3afad26de8d.woff") format("woff"), url("//db.onlinewebfonts.com/t/5d7e9c15851618f02f88a3afad26de8d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5d7e9c15851618f02f88a3afad26de8d.svg#Liberator") format("svg"); }
+body{
+  padding-top: 0%;
+}
+.navigation{
+  margin: 0px 0 0 0px;
+  display: inline;
+  left: 0;
+}
+.navDiv {
+    text-align: center;
+}
+.navigation li a {
+    color: #000000;
+    font-size: 24px;
+    opacity: 1;
+    position: relative !important;
+    left: 0%;
+
+}
+	
+.navigation li {
+	padding: 5px;
+}
+footer{
+	display: none;
+}
+
+a, h1, label {
+    font-family: liberator !important;
+}
+.grid {
+    text-align: -webkit-center;
+}
+.wrapper {
+    text-align: -webkit-center;
+}
+.wrapper ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+header.site-header {
+    text-align: -webkit-center;
+}
+
+.mobile-grid{
+	display: none;
+}
+
+video {
+    object-fit: scale-down;
+}
+
+@media screen and (max-width:835px){
+	.grid-web-full{
+		display: none;
+	}
+	.mobile-grid{
+		display: block;
+	}
+}
+@media screen and (max-width:1000px){
+  video{
+    height: 800px;
+  }
+}
+@media screen and (max-width:860px){
+  video{
+    height: 700px;
+  }
+}
+
+@media screen and (max-width:700px){
+  video{
+    height: 500px;
+  }
+}
+@media screen and (max-height: 750px){
+  video{
+    height: 500px;
+  }
+}
+/**SlideShow**/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #675555;;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* Fading animation */
+.myslides-fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes myslides-fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes myslides-fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+a.prev {
+    left: 0;
+}
+
+h1.site-header__logo {
+    padding-bottom: 0.5px;
+}
